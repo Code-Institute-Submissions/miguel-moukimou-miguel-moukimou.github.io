@@ -6,6 +6,16 @@
     border: none;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    line-height: inherit;
+    background-color: transparent;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -119,4 +129,137 @@ body{
 
 .home-header-nav .header-nav li a:hover, .home-header-nav .header-nav li a.active{
     color: #ffffff;
+}
+
+.home-header-hearo{
+    overflow: hidden;
+    padding: 0 75px;
+    max-width: 1350px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.home-header-hearo .featured{
+    animation-duration: 2s;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    background-color: #151515;
+    height: 564px;
+    position: relative;
+}
+
+.featured::before {
+    left: -75px;
+}
+.featured::after {
+    right: -75px;
+}
+.featured::before, .featured::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: rgba(255,255,255,.15);
+    position: absolute;
+    top: 50%;
+}
+
+.featured-column{
+    float: left;
+}
+
+.featured-column-big{
+    width: 66.66666%;
+    position: relative;
+}
+
+.featured-column-small{
+    width: 33.333333333%;
+    position: relative;
+}
+
+.featured-column-big .home-main{
+    height: 564px;
+    background-image: url(../images/verdun-war-battle-pic1.PNG);
+}
+
+.featured .home-main, .featured .home-secondary{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.featured .home-main::before, .featured .home-secondary::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    opacity: .3;
+    background-color: #151515;
+}
+
+.featured .featured-column:hover{
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    opacity: .6;
+}
+
+.featured .home-main-content {
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    width: 100%;
+    padding: 0 20% 0 6rem;
+    display: block;
+    box-sizing: border-box;
+}
+
+.featured .home-main h1 {
+    font-size: 2.5rem;
+    line-height: 1.333;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.featured .home-main-content h1 a {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.featured-column-small .home-secondary{
+    height: 282px;
+}
+
+.featured-column-small .home-secondary.one{
+    background-image: url(../images/verdun-war-battle-landscape-impact-today.jpg);
+}
+
+.featured-column-small .home-secondary.two{
+    background-image: url(../images/verdun-war-battle-national-identity-france.jpg);
+}
+
+.featured-column-small .home-main-content{
+    bottom: 2.4rem;
+    padding: 0 10% 0 3rem;
+}
+
+.featured-column-small .home-main-content h1 {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+
+.p-content{
+    background-color: #f2f2f2;
+    padding-top: 8.4rem;
+    padding-bottom: 7.2rem;
 }
