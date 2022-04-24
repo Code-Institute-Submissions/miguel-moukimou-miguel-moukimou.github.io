@@ -17,8 +17,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -32,8 +30,6 @@
     <li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -57,5 +53,5 @@ This website is created for you if you are a:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-![alt Contact page image of the war-facts website](screencapture-miguel-moukimou-github-io-contact-html-2022-04-24-14_52_43.png?raw=true)
-![alt details page image of the war-facts website](screencapture-miguel-moukimou-github-io-impact-html-2022-04-24-14_51_38.png?raw=true)
+![alt Contact page image of the war-facts website](https://github.com/miguel-moukimou/miguel-moukimou.github.io/blob/main/assets/images/screencapture-miguel-moukimou-github-io-contact-html-2022-04-24-14_52_43.png)
+![alt details page image of the war-facts website](https://github.com/miguel-moukimou/miguel-moukimou.github.io/blob/main/assets/images/screencapture-miguel-moukimou-github-io-impact-html-2022-04-24-14_51_38.png)
