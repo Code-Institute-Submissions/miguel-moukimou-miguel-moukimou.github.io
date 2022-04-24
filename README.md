@@ -33,11 +33,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![alt Homepage image of the war-facts website](https://github.com/miguel-moukimou/miguel-moukimou.github.io/blob/main/assets/images/screencapture-miguel-moukimou-github-io-index-html-2022-04-24-14_51_15.png)
-
 This website was created for all lovers of war history. Students could also come here to learn more about the past.
 The purpose of the website is to document the facts and unknowns about the world wars.
+![alt Homepage image of the war-facts website](https://github.com/miguel-moukimou/miguel-moukimou.github.io/blob/main/assets/images/screencapture-miguel-moukimou-github-io-index-html-2022-04-24-14_51_15.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
