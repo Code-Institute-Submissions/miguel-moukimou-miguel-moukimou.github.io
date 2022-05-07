@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="War battles histories">
     <meta name="keywords" content="World ward one, war, WWI">
     <meta name="author" content="Miguel Moukimou">
@@ -37,7 +37,7 @@
         <div class="content-wrapper">
             <h1>Feel Free To Contact Us.</h1>
             <figure>
-                <img src="assets/images/our_location_map.PNG" alt="Google maps image of our location">
+                <img src="assets/images/our_location_map.PNG" alt="Google maps image of our location" width="100%">
             </figure>
             <div class="s-content__main">
                 <div class="row">
@@ -66,21 +66,21 @@
                 <h3>Say Hello.</h3>
             </div>
             <div class="row">
-                <form name="cForm" id="cForm" method="post" action="#">
+                <form name="cForm" id="cForm" target="_blank" method="post" action="http://formdump.codeinstitute.net">
                     <fieldset>
                         <div class="form-field">
-                            <input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="">
+                            <input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="" required aria-label="Your name">
                         </div>
                         <div class="form-field">
-                            <input name="cEmail" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="">
+                            <input name="cEmail" type="email" id="cEmail" class="full-width" placeholder="Your Email" value="" aria-label="Your Email" required>
                         </div>
                         <div class="form-field">
-                            <input name="cWebsite" type="text" id="cWebsite" class="full-width" placeholder="Website" value="">
+                            <input name="cWebsite" type="text" id="cWebsite" class="full-width" placeholder="Website" value="" aria-label="Website">
                         </div>
                         <div class="message form-field">
-                            <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
+                            <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" aria-label="Your message" required></textarea>
                         </div>
-                        <button type="submit" class="submit btn btn--primary full-width">Submit</button>
+                        <button type="submit" class="submit btn btn--primary full-width" aria-label="Submit">Submit</button>
                     </fieldset>
                     </form>
             </div>
@@ -111,9 +111,9 @@
                 <div class="col-five md-full end s-footer__subscribe">
                     <h4>Our Newsletter</h4>
                     <div class="subscribe-form">
-                        <form id="mc-form" class="group">
+                        <form id="mc-form" class="group" target="_blank" action="http://formdump.codeinstitute.net">
                             <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address"
-                                required="">
+                                required aria-label="Email Address">
                             <input type="submit" name="subscribe" value="Send">
                             <label for="mc-email" class="subscribe-message"></label>
                         </form>
