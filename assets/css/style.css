@@ -41,6 +41,10 @@ body{
     padding-top: 222px;
 }
 
+.content-wrapper img{
+    width: 100%;
+}
+
 #home-header{
     position: absolute;
     text-align: center;
