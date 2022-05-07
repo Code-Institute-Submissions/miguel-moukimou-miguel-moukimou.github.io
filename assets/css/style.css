@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
 
 *{
     margin: 0;
@@ -21,7 +21,7 @@ a {
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
     background: #19191b;
     font-size: 1.6rem;
@@ -84,14 +84,14 @@ body{
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 150%;
 }
 
 #home-header-social{
     list-style: none;
-    font-size: 23px;
+    font-size: 2.3rem;
     line-height: 1;
     margin: 0;
     padding: 0;
@@ -121,7 +121,7 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 1.6rem;
 }
@@ -334,7 +334,7 @@ body{
 }
 
 .hentry h3.post-title, .hentry h3.post-title a, .hentry h3.post-title a:visited {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #444444;
     text-decoration: none;
@@ -346,7 +346,7 @@ ul.post-header-line-one {
     position: absolute;
     left: 0;
     top: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 16px;
 }
@@ -362,7 +362,7 @@ ul.post-header-line-one li.date-header {
 }
 
 li.date-header .day {
-    font-size: 24px;
+    font-size: 1.4rem;
 }
 
 .enclosure {
@@ -376,7 +376,7 @@ li.date-header .day {
     padding: 40px 0 30px;
     width: 100%;
     color: #ddd;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 1.6em;
     min-height: 150px;
 }
@@ -421,7 +421,7 @@ li.date-header .day {
 }
 
 footer h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1.4rem;
     line-height: 1.286;
@@ -455,7 +455,7 @@ footer h4::after {
 
 footer p{
     margin-bottom: 3rem;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .s-footer__subscribe .subscribe-form {
@@ -482,7 +482,7 @@ footer p{
 
 input[type="submit"]{
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -526,17 +526,17 @@ input[type="submit"]{
     text-align: center;
 }
 .details h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
 }
 
 .details h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
@@ -548,10 +548,10 @@ h3{
 }
 
 .details h3{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -564,7 +564,7 @@ p.lead {
 }
 
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
     line-height: 1.8;
 }
@@ -608,7 +608,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
     border: 0;
     outline: none;
     color: #151515;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     line-height: 2rem;
     width: 100%;
@@ -661,7 +661,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
 
 @media only screen and (max-width: 1000px){
     #home-header-social {
-        font-size: 21px;
+        font-size: 2.1rem;
     }
     .featured-column-big {
         width: 60%;
@@ -719,7 +719,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
         width: 90%;
     }
     .s-footer__linklist a {
-        font-size: 20px;
+        font-size: 1.4rem;
     }
 }
 
@@ -728,7 +728,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
         padding-top: 150px;
     }
     .home-header-nav .header-nav {
-        font-size: 13px;
+        font-size: 0.9rem;
     }
 
     .home-header-hearo {
