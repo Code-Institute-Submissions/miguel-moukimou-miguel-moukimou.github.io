@@ -63,10 +63,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Visitor Goals
 
-    1. As Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As Visitor, I want to easily understand the main purpose of the site.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a links to the details.
-        2. The main points are made immediately with the hero image
+        2. The main points are made immediately clear with the hero image
         3. The user has two options, click the call to action buttons or scroll down, to learn more about the content.
 
 ### Further Testing
